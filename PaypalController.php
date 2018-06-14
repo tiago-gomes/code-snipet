@@ -185,7 +185,7 @@ class PayPalController extends Controller
 
     /**
      *
-     * Issue a refund
+     * Issue an 100% refund
      *
      * @param $order_id
      * @param Request $request
@@ -240,7 +240,7 @@ class PayPalController extends Controller
 
     /**
      *
-     * Cancels the payment operation and issues an 100% refund.
+     * Cancels the payment.
      *
      * @param $order_id
      * @return mixed
